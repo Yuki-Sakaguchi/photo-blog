@@ -22,6 +22,19 @@ composer create-project laravel/laravel myapp --prefer-dist
 - [MacにComposerをインストールする](http://mawatari.jp/archives/install-composer-in-mac)
 - [laravelをスタートしよう](http://libro.tuyano.com/index3?id=11526003)
 
+## ディレクトリ構成
+- 「app」フォルダ――これが、アプリケーションの本体部分になります。アプリケーションの開発を行う際には、ここにPHPのプログラムを配置していきます。
+- 「bootstrap」フォルダ――アプリケーションのブートストラップ・プログラムです。起動してからの各種処理が用意されています。
+- 「config」フォルダ――アプリケーションの各種設定情報を記述するところです。
+- 「database」フォルダ――データベース関連のふぁいるをまとめたところです。
+- 「public」フォルダ――公開フォルダです。MVCアーキテクチャーを使わない普通のHTMLファイルなどはここに配置します。
+- 「resources」フォルダ――アプリケーションで使用するリソースファイルを置くところです。MVCのビュー（画面表示）のテンプレートファイルなどはここに置きます。
+- 「storage」フォルダ――データ保存のための場所です。セッションやキャッシュなどの保存ファイルが作成されます。
+- 「tests」フォルダ――ユニットテスト関連のファイルの配置場所です。
+- 「vendor」フォルダ――ベンダーが作成するプログラム類がまとめられています。
+
+
+# 以下Laravelのデフォルトのreadme
 
 # Laravel PHP Framework
 
