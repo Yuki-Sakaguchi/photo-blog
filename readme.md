@@ -1,5 +1,15 @@
 # LavabelでSPAの写真ブログを作る
 
+## サーバーを起動
+~~~
+php artisan serve
+~~~
+
+## Larabelプロジェクトを作成
+~~~
+composer create-project laravel/laravel myapp --prefer-dist
+~~~
+
 ## laravelでプロジェクトを作る
 - [MacにComposerをインストールする](http://mawatari.jp/archives/install-composer-in-mac)
 - [laravelをスタートしよう](http://libro.tuyano.com/index3?id=11526003)
