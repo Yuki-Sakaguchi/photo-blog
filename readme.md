@@ -2,6 +2,7 @@
 
 ## クローンした後
 - .envファイルを作る
+- npm install でnode_modulesを作成
 - composer installでvendorを作成
 - php artisan key:generate
 - [その他](http://vdeep.net/laravel-git-clone)
