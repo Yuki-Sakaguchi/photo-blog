@@ -34,6 +34,12 @@ composer create-project laravel/laravel myapp --prefer-dist
 - 「vendor」フォルダ――ベンダーが作成するプログラム類がまとめられています。
 
 
+## ページの追加
+- 「resouces/views」にテンプレートのphpを作成（MVCのV)
+- 「app/Http/routes.php」内にアクセス時に使うcontrollerを指定する（MVCのC?）
+- 「app/Http/Controllers」にコントローラファイルを作成し、そこでroutes.phpからのアクセス時の処理を書く（MVCのM?）
+
+
 # 以下Laravelのデフォルトのreadme
 
 # Laravel PHP Framework
