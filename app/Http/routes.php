@@ -25,4 +25,4 @@ Route::get('/', function () {
 //
 // ↓ Routeに全て書くのは大変なので、コントローラーを使う
 
-Route::controller('helo', 'HeloController');
+Route::resource('helo', 'HeloController');
